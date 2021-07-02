@@ -42,16 +42,14 @@ body{
     width: 180px;
     position: relative;    
     text-shadow: 2px 2px 4px #af790cb2;
-    display: flex;    
-    
+    display: flex;   
 }
 .conteiner img{
     margin-top: 100px;
     margin-left: 50px;
     width: 100%;    
     border-style: solid;
-    border-color: #ffa60094;
-    
+    border-color: #ffa60094;   
 }
 /*Capas*/
 .u{
@@ -65,12 +63,11 @@ body{
     font-family: monospace;
     font-size: 18px;
 }
-
 .u2{
     width: 170px;
     position: absolute;
     top: 100%;
-    margin-left: 293px;   
+    margin-left: 286px;   
     text-align: center;    
     background-color: #051d4bc7;
     padding: 8px;
@@ -81,7 +78,18 @@ body{
     width: 170px;
     position: absolute;
     top: 100%;
-    margin-left: 529px;   
+    margin-left: 522px;   
+    text-align: center;    
+    background-color: #051d4bc7;
+    padding: 8px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.mw{
+    width: 170px;
+    position: absolute;
+    top: 100%;
+    margin-left: 758px;   
     text-align: center;    
     background-color: #051d4bc7;
     padding: 8px;
@@ -94,14 +102,19 @@ body{
     color: white;    
     text-shadow: 4px 15px 18px #ffa6005e;
 }
-.u2 :hover{
-    
+.u2 :hover{    
     text-decoration: none;
     color: white;
     transition: 0.4s;
     text-shadow: 4px 15px 18px #ffa6005e;
 }
 .c :hover{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    text-shadow: 4px 15px 18px #ffa6005e;
+}
+.mw :hover{
     text-decoration: none;
     color: white;
     transition: 0.4s;
@@ -114,15 +127,13 @@ a{
     text-decoration: none;
 }
 
-.credit{
-    
+.credit{    
     margin-top: 150px;
     border-radius: 20px 0px;
     padding: 0px 30px 0px 30px;
     color: #ffffff54;    
 }
-.credit :hover{
-    
+.credit :hover{    
     font-size: 26px;
     color: #ff8800;
     transition: ease-in 0.3s;    
@@ -133,8 +144,7 @@ a{
 }
 
 
-.header{ 
-       
+.header{        
     font-family: 'nfs';
     text-align: center;
     font-size: 10px;
@@ -142,8 +152,7 @@ a{
     color: #f09d3f;
     padding: 16px;    
     text-shadow: 12px 12px 1px #b1814a1e;
-    transition-duration: 0.6s;
-    
+    transition-duration: 0.6s;    
 }
 .header > h2{
     
@@ -152,12 +161,10 @@ a{
     text-shadow: 0px 0px 6x #96b7f5b4;
     transition-duration: 1.0s;
     text-shadow: 1px 1px 2px #96b7f5b4;   
-    
 }
 
 
-.footer{   
-    
+.footer{    
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 14px;
@@ -165,15 +172,13 @@ a{
     color: white;
     padding: 10px;
     display: flex; 
-    justify-content: space-around;
+    justify-content: space-between;
     transition-duration: 0.4s;
     text-shadow: 1px 1px 2px #96b7f5b4;
-
 }
 .rodape{
     transition-duration: 0.1s;
 }
-
 .imgea{
     width: 180px;
 }
