@@ -95,7 +95,16 @@ h1{
     padding: 2px;
     width: 176px;    
 }
-
+.pa2{
+    margin: 80px auto 170px auto;    
+    font-size: 18px;
+    font-family: monospace;    
+    text-align: center;    
+    background-color: #ffa600d3;
+    border-radius: 4px;
+    padding: 12px;
+    width: 376px;
+}
 .download_nfsu{
     text-decoration: none;
     color: #301900;
